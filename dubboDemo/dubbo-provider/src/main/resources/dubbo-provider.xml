@@ -10,4 +10,7 @@
     <dubbo:protocol name="dubbo" port="20880"/>
     <dubbo:service interface="com.api.cn.api.service.DemoService" ref="demoService" protocol="dubbo"/>
     <bean id="demoService" class="com.provider.cn.provider.service.DemoServiceImpl"/>
+
+    <dubbo:service interface="com.api.cn.api.service.ITaoBaoService" ref="taobaoService" protocol="dubbo"/>
+    <bean id="taobaoService" class="com.provider.cn.provider.service.TaoBaoServiceImpl"/>
 </beans>
