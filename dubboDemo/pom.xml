@@ -7,6 +7,8 @@
     <groupId>con.hb.cn</groupId>
     <artifactId>dubboDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
 
+    </dependencies>
 
 </project>
