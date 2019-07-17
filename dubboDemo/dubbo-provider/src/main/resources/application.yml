@@ -1,0 +1,43 @@
+logging:
+  #日志存储地址
+  file: "logs/config/demo-xx.log"
+info:
+  name : "入门案例"
+
+server:
+  #端口号
+  port: 8888
+  #项目名，如果不设定，默认是 /
+  servlet:
+    context-path: /
+
+#整合mybatis
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/springbootdb?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 1000
+    database: 0
+    jedis:
+      pool:
+        max-active: 10
+        max-idle: 8
+        min-idle: 2
+        max-wait: 100
+
+#配置eureka注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8080/eureka #eureka注册中心的位置
+  instance:
+    lease-renewal-interval-in-seconds: 5 #每隔5秒发送一次心跳
+    lease-expiration-duration-in-seconds: 20 # 20秒不发就默认过期
+    prefer-ip-address: true  #当调用getHostname获取实例的hostname时，返回ip而不是host名称
+    ip-address: 127.0.0.1 #指定自己的ip信息
+    instance-id: ${spring.application.name}:${server.port} #区分同一服务的不同实例的唯一标准，因此不能重复。

@@ -1,0 +1,292 @@
+2019-07-17 14:20:48.109  INFO 25764 --- [main] com.provider.cn.provider.TestRedis       : Starting TestRedis on sh-hub-02 with PID 25764 (started by hubin in D:\my-git\dubboDemo\dubbo-provider)
+2019-07-17 14:20:48.264  INFO 25764 --- [main] com.provider.cn.provider.TestRedis       : No active profile set, falling back to default profiles: default
+2019-07-17 14:20:49.235  INFO 25764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-17 14:20:49.238  INFO 25764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-17 14:20:49.275  INFO 25764 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-07-17 14:20:49.447  INFO 25764 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : App ID is set to 110 by app.id property from /META-INF/app.properties
+2019-07-17 14:20:49.449  INFO 25764 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Loading C:\opt\settings\server.properties
+2019-07-17 14:20:49.449  INFO 25764 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to [DEV] by property 'env' in server.properties.
+2019-07-17 14:20:49.740  WARN 25764 --- [main] c.c.f.a.i.DefaultMetaServerProvider      : Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+2019-07-17 14:20:49.746  INFO 25764 --- [main] c.c.f.apollo.core.MetaDomainConsts       : Located meta server address http://127.0.0.1:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+2019-07-17 14:20:57.847  WARN 25764 --- [main] c.c.f.a.i.AbstractConfigRepository       : Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: Connection refused: connect]]
+2019-07-17 14:21:01.876  WARN 25764 --- [main] c.c.f.a.i.LocalFileConfigRepository      : Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-17 14:21:05.885  WARN 25764 --- [Apollo-RemoteConfigLongPollService-1] c.c.f.a.i.RemoteConfigLongPollService    : Long polling failed, will retry in 1 seconds. appId: 110, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-17 14:21:09.884  WARN 25764 --- [main] c.c.f.a.i.LocalFileConfigRepository      : Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-17 14:21:10.022  INFO 25764 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80694f29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 14:21:11.434  INFO 25764 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 14:21:12.157  INFO 25764 --- [main] com.provider.cn.provider.TestRedis       : Started TestRedis in 24.479 seconds (JVM running for 26.54)
+2019-07-17 14:21:12.458  INFO 25764 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-07-17 14:21:12.460  INFO 25764 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-07-17 14:21:13.756  INFO 25764 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-17 14:21:13.887  WARN 25764 --- [Apollo-RemoteConfigLongPollService-1] c.c.f.a.i.RemoteConfigLongPollService    : Long polling failed, will retry in 2 seconds. appId: 110, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-17 17:40:08.892  INFO 23612 --- [main] com.provider.cn.provider.TestRedis       : Starting TestRedis on sh-hub-02 with PID 23612 (started by hubin in D:\my-git\dubboDemo\dubbo-provider)
+2019-07-17 17:40:08.894  INFO 23612 --- [main] com.provider.cn.provider.TestRedis       : No active profile set, falling back to default profiles: default
+2019-07-17 17:40:09.831  INFO 23612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-17 17:40:09.835  INFO 23612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-17 17:40:09.871  INFO 23612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-07-17 17:40:10.140  INFO 23612 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : App ID is set to 110 by app.id property from /META-INF/app.properties
+2019-07-17 17:40:10.142  INFO 23612 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Loading C:\opt\settings\server.properties
+2019-07-17 17:40:10.143  INFO 23612 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to [DEV] by property 'env' in server.properties.
+2019-07-17 17:40:10.537  WARN 23612 --- [main] c.c.f.a.i.DefaultMetaServerProvider      : Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+2019-07-17 17:40:10.542  INFO 23612 --- [main] c.c.f.apollo.core.MetaDomainConsts       : Located meta server address http://127.0.0.1:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+2019-07-17 17:40:14.651  WARN 23612 --- [main] c.c.f.a.i.AbstractConfigRepository       : Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: java.io.FileNotFoundException: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66]]]
+2019-07-17 17:40:16.660  WARN 23612 --- [main] c.c.f.a.i.LocalFileConfigRepository      : Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: java.io.FileNotFoundException: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66]]]
+2019-07-17 17:40:18.666  WARN 23612 --- [Apollo-RemoteConfigLongPollService-1] c.c.f.a.i.RemoteConfigLongPollService    : Long polling failed, will retry in 1 seconds. appId: 110, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: java.io.FileNotFoundException: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66]]]
+2019-07-17 17:40:20.670  WARN 23612 --- [main] c.c.f.a.i.LocalFileConfigRepository      : Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: java.io.FileNotFoundException: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66]]]
+2019-07-17 17:40:20.837  INFO 23612 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b84b314f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 17:40:22.226  INFO 23612 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 17:40:22.675  WARN 23612 --- [Apollo-RemoteConfigLongPollService-1] c.c.f.a.i.RemoteConfigLongPollService    : Long polling failed, will retry in 2 seconds. appId: 110, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: java.io.FileNotFoundException: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66]]]
+2019-07-17 17:40:22.903  INFO 23612 --- [main] com.provider.cn.provider.TestRedis       : Started TestRedis in 14.488 seconds (JVM running for 17.169)
+2019-07-17 17:40:23.288  INFO 23612 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-07-17 17:40:23.290  INFO 23612 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-07-17 17:40:24.576  INFO 23612 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-17 17:55:42.547  INFO 8320 --- [main] com.provider.cn.provider.TestRedis       : Starting TestRedis on sh-hub-02 with PID 8320 (started by hubin in D:\my-git\dubboDemo\dubbo-provider)
+2019-07-17 17:55:42.563  INFO 8320 --- [main] com.provider.cn.provider.TestRedis       : No active profile set, falling back to default profiles: default
+2019-07-17 17:55:43.673  INFO 8320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-17 17:55:43.673  INFO 8320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-17 17:55:43.735  INFO 8320 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47ms. Found 0 repository interfaces.
+2019-07-17 17:55:43.923  INFO 8320 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : App ID is set to 110 by app.id property from /META-INF/app.properties
+2019-07-17 17:55:43.938  INFO 8320 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Loading C:\opt\settings\server.properties
+2019-07-17 17:55:43.938  INFO 8320 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to [DEV] by property 'env' in server.properties.
+2019-07-17 17:55:44.188  WARN 8320 --- [main] c.c.f.a.i.DefaultMetaServerProvider      : Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+2019-07-17 17:55:44.204  INFO 8320 --- [main] c.c.f.apollo.core.MetaDomainConsts       : Located meta server address http://127.0.0.1:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+2019-07-17 17:55:52.332  WARN 8320 --- [main] c.c.f.a.i.AbstractConfigRepository       : Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-17 17:55:56.363  WARN 8320 --- [main] c.c.f.a.i.LocalFileConfigRepository      : Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-17 17:56:00.379  WARN 8320 --- [Apollo-RemoteConfigLongPollService-1] c.c.f.a.i.RemoteConfigLongPollService    : Long polling failed, will retry in 1 seconds. appId: 110, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-17 17:56:04.404  WARN 8320 --- [main] c.c.f.a.i.LocalFileConfigRepository      : Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-17 17:56:04.576  INFO 8320 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$afbfe87f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 17:56:06.154  INFO 8320 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 17:56:06.779  INFO 8320 --- [main] com.provider.cn.provider.TestRedis       : Started TestRedis in 24.669 seconds (JVM running for 27.019)
+2019-07-17 17:56:07.154  INFO 8320 --- [main] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-07-17 17:56:07.154  INFO 8320 --- [main] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-07-17 17:56:07.420  INFO 8320 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-17 17:56:08.420  WARN 8320 --- [Apollo-RemoteConfigLongPollService-1] c.c.f.a.i.RemoteConfigLongPollService    : Long polling failed, will retry in 2 seconds. appId: 110, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-17 18:04:03.479  INFO 8828 --- [main] com.provider.cn.provider.TestRedis       : Starting TestRedis on sh-hub-02 with PID 8828 (started by hubin in D:\my-git\dubboDemo\dubbo-provider)
+2019-07-17 18:04:03.479  INFO 8828 --- [main] com.provider.cn.provider.TestRedis       : No active profile set, falling back to default profiles: default
+2019-07-17 18:04:03.698  WARN 8828 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.provider.cn.provider.DubboProviderApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'userController' for bean class [com.provider.cn.provider.web.UserController] conflicts with existing, non-compatible bean definition of same name and class [com.provider.cn.provider.controller.UserController]
+2019-07-17 18:04:03.948 ERROR 8828 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.provider.cn.provider.DubboProviderApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'userController' for bean class [com.provider.cn.provider.web.UserController] conflicts with existing, non-compatible bean definition of same name and class [com.provider.cn.provider.controller.UserController]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:315) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:119) [spring-boot-test-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:na]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'userController' for bean class [com.provider.cn.provider.web.UserController] conflicts with existing, non-compatible bean definition of same name and class [com.provider.cn.provider.controller.UserController]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:287) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 36 common frames omitted
+
+2019-07-17 18:04:03.948 ERROR 8828 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@4bff7da0] to prepare test instance [com.provider.cn.provider.TestRedis@280d9edc]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.provider.cn.provider.DubboProviderApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'userController' for bean class [com.provider.cn.provider.web.UserController] conflicts with existing, non-compatible bean definition of same name and class [com.provider.cn.provider.controller.UserController]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:181) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:315) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:119) ~[spring-boot-test-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 24 common frames omitted
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'userController' for bean class [com.provider.cn.provider.web.UserController] conflicts with existing, non-compatible bean definition of same name and class [com.provider.cn.provider.controller.UserController]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:287) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:242) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:199) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:167) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 36 common frames omitted
+
+2019-07-17 18:08:32.133  INFO 72 --- [main] com.provider.cn.provider.TestRedis       : Starting TestRedis on sh-hub-02 with PID 72 (started by hubin in D:\my-git\dubboDemo\dubbo-provider)
+2019-07-17 18:08:32.149  INFO 72 --- [main] com.provider.cn.provider.TestRedis       : No active profile set, falling back to default profiles: default
+2019-07-17 18:08:33.305  INFO 72 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-17 18:08:33.308  INFO 72 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-17 18:08:33.346  INFO 72 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-07-17 18:08:33.545  INFO 72 --- [main] c.c.f.f.i.p.DefaultApplicationProvider   : App ID is set to 110 by app.id property from /META-INF/app.properties
+2019-07-17 18:08:33.545  INFO 72 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Loading C:\opt\settings\server.properties
+2019-07-17 18:08:33.545  INFO 72 --- [main] c.c.f.f.i.p.DefaultServerProvider        : Environment is set to [DEV] by property 'env' in server.properties.
+2019-07-17 18:08:33.888  WARN 72 --- [main] c.c.f.a.i.DefaultMetaServerProvider      : Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+2019-07-17 18:08:33.888  INFO 72 --- [main] c.c.f.apollo.core.MetaDomainConsts       : Located meta server address http://127.0.0.1:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+2019-07-17 18:08:42.051  WARN 72 --- [main] c.c.f.a.i.AbstractConfigRepository       : Sync config failed, will retry. Repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-17 18:08:46.090  WARN 72 --- [main] c.c.f.a.i.LocalFileConfigRepository      : Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-17 18:08:50.125  WARN 72 --- [Apollo-RemoteConfigLongPollService-1] c.c.f.a.i.RemoteConfigLongPollService    : Long polling failed, will retry in 1 seconds. appId: 110, cluster: default, namespaces: application, long polling url: null, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-17 18:08:54.154  WARN 72 --- [main] c.c.f.a.i.LocalFileConfigRepository      : Sync config from upstream repository class com.ctrip.framework.apollo.internals.RemoteConfigRepository failed, reason: Get config services failed from http://127.0.0.1:8080/services/config?appId=110&ip=192.168.0.66 [Cause: Could not complete get operation [Cause: connect timed out]]
+2019-07-17 18:08:54.342  INFO 72 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e2f33ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-17 18:08:55.222  INFO 72 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-17 18:08:56.210  INFO 72 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-17 18:08:56.869  INFO 72 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-07-17 18:08:56.869  INFO 72 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-07-17 18:08:56.916  INFO 72 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-07-17 18:08:56.931  WARN 72 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is com.google.common.util.concurrent.ExecutionError: java.lang.NoSuchMethodError: com.google.common.collect.FluentIterable.concat(Ljava/lang/Iterable;Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+2019-07-17 18:08:56.931  INFO 72 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-17 18:08:56.962  INFO 72 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-17 18:08:56.978 ERROR 72 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    springfox.documentation.schema.DefaultModelDependencyProvider.dependentModels(DefaultModelDependencyProvider.java:79)
+
+The following method did not exist:
+
+    com.google.common.collect.FluentIterable.concat(Ljava/lang/Iterable;Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+
+The method's class, com.google.common.collect.FluentIterable, is available from the following locations:
+
+    jar:file:/C:/Users/hubin/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/collect/FluentIterable.class
+
+It was loaded from the following location:
+
+    file:/C:/Users/hubin/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of com.google.common.collect.FluentIterable
+
+2019-07-17 18:08:56.978 ERROR 72 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@4bff7da0] to prepare test instance [com.provider.cn.provider.TestRedis@154b0748]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242) [junit-rt.jar:na]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70) [junit-rt.jar:na]
+Caused by: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is com.google.common.util.concurrent.ExecutionError: java.lang.NoSuchMethodError: com.google.common.collect.FluentIterable.concat(Ljava/lang/Iterable;Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:185) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:893) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:119) ~[spring-boot-test-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 24 common frames omitted
+Caused by: com.google.common.util.concurrent.ExecutionError: java.lang.NoSuchMethodError: com.google.common.collect.FluentIterable.concat(Ljava/lang/Iterable;Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2205) ~[guava-19.0.jar:na]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953) ~[guava-19.0.jar:na]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3957) ~[guava-19.0.jar:na]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4875) ~[guava-19.0.jar:na]
+	at springfox.documentation.schema.CachingModelDependencyProvider.dependentModels(CachingModelDependencyProvider.java:58) ~[springfox-schema-2.9.2.jar:null]
+	at springfox.documentation.schema.DefaultModelProvider.dependencies(DefaultModelProvider.java:128) ~[springfox-schema-2.9.2.jar:null]
+	at springfox.documentation.schema.CachingModelProvider.dependencies(CachingModelProvider.java:68) ~[springfox-schema-2.9.2.jar:null]
+	at springfox.documentation.spring.web.scanners.ApiModelReader.populateDependencies(ApiModelReader.java:136) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:78) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.scanners.ApiListingScanner.scan(ApiListingScanner.java:133) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.scanners.ApiDocumentationScanner.scan(ApiDocumentationScanner.java:71) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.scanDocumentation(DocumentationPluginsBootstrapper.java:101) ~[springfox-spring-web-2.9.2.jar:null]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:167) ~[springfox-spring-web-2.9.2.jar:null]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 36 common frames omitted
+Caused by: java.lang.NoSuchMethodError: com.google.common.collect.FluentIterable.concat(Ljava/lang/Iterable;Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+	at springfox.documentation.schema.DefaultModelDependencyProvider.dependentModels(DefaultModelDependencyProvider.java:79) ~[springfox-schema-2.9.2.jar:null]
+	at springfox.documentation.schema.CachingModelDependencyProvider$1.load(CachingModelDependencyProvider.java:50) ~[springfox-schema-2.9.2.jar:null]
+	at springfox.documentation.schema.CachingModelDependencyProvider$1.load(CachingModelDependencyProvider.java:48) ~[springfox-schema-2.9.2.jar:null]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3542) ~[guava-19.0.jar:na]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2323) ~[guava-19.0.jar:na]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2286) ~[guava-19.0.jar:na]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2201) ~[guava-19.0.jar:na]
+	... 49 common frames omitted
+
